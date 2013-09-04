@@ -1,0 +1,175 @@
+﻿*{
+	padding:0px;
+	margin:0px;
+	font-size:100%;
+}
+
+body
+	{
+	background:#e7eaea;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	user-select: none; 
+	}
+	
+.presentation
+	{
+	height:600px;
+	margin-bottom:50px;
+	}
+
+
+/* Preloader */
+.preloader
+	{
+	width:100%;
+	height:100%;
+	position:fixed;
+	background-image:url(../img/shad.png);
+	background-repeat:repeat;
+	}
+.preloader img
+	{
+	width:16px;
+	height:16px;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin:-8px 0 0 -8px;
+	}
+	
+.pagecontent
+	{
+	width:100%;
+	min-height:100%;
+	position:absolute;
+	}
+	
+/* Sidebar */
+.sidebarContainer
+	{
+	position:absolute;
+	height:100%;
+	cursor:pointer;
+	z-index:2;
+	background-image:url(../img/shad.png);
+	background-repeat:repeat;
+	}
+	
+.sidebarInner
+	{
+	position:absolute;
+	height:100%;
+	width:0px;
+	overflow:hidden;
+	top:0px;
+	left:0px;
+	}
+	
+.sidebarHandler
+	{
+	position:absolute;
+	height:100%;
+	width:25px;
+	right:-25px;
+	background-image:url(../img/shad.png);
+	background-repeat:repeat;
+	border-radius:0px 5px 5px 0px;
+	}
+	
+.sidebarHandlerText
+	{
+	top:47%;
+	color:#ccc;
+	font-size:17px;
+	font-family:arial;
+	text-align:center;
+	}
+	
+.sidebarBlockWrap
+	{
+	width:182px;
+	height:100px;
+	overflow:hidden;
+	border-radius:5px;
+	border:#fff solid 1px;
+	margin-left:10px;
+	margin-top:10px;
+	}
+	
+.sidebarBlockWrapActive
+	{
+	box-shadow:0 0 20px #ff0!important;
+	}
+.sidebarBlockWrap:hover
+	{
+	box-shadow:0 0 20px #ccf;
+	}
+.thumbInner
+	{
+	position:absolute;
+	width:100%;
+	height:100%;
+	}
+/*=========SCREEN=========*/
+.screenCont
+	{
+	position:absolute;
+	overflow-y:auto;
+	overflow-x:hidden;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	}
+.cntCont
+	{
+	width:960px;
+	height:90%;
+	position:absolute;
+	left:50%;
+	margin-left:-480px;
+	top:5%;
+	border-radius:5px;
+	}
+.ctrl
+	{
+	width:60px;
+	height:100%;
+	position:absolute;
+	top:0px;
+	background-image:url(../img/shad.png);
+	background-repeat:repeat;
+	cursor:pointer;
+	}
+.prevCtrl
+	{
+	left:-60px;
+	border-radius:5px 0 0 5px;
+	}
+.nextCtrl
+	{
+	right:-60px;
+	border-radius:0 5px 5px 0;
+	}
+.triangle
+	{
+	top:50%;
+	position:absolute;
+	width: 0;
+    height: 0;
+	margin-top:-10px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+	}
+.leftTriangle
+	{
+    border-right: 15px solid #fff;
+	left:20px;
+	}
+.rightTriangle
+	{
+    border-left: 15px solid #fff;
+	right:20px;
+	}
